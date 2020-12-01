@@ -1,9 +1,12 @@
+# -*- coding: utf-8 -*-
+# This program is dedicated to the public domain under the CC0 license.
+# Coded with ❤️ by Neranjana Prasad (@NandiyaLive)
+
 import cloudscraper as cs
 from bs4 import BeautifulSoup as bs
 
 
 url = input("PSA Page Link : ")
-
 quality = input("1) 720p | 2) 1080p\nEnter a number: ")
 
 scraper = cs.create_scraper()
