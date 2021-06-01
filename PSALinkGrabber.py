@@ -6,6 +6,7 @@ import subprocess
 
 def install():
     subprocess.call(['pip', 'install', "bs4", "lxml", "requests", "cloudscraper"])
+    subprocess.call('clear')
     
     getdata()
 
@@ -53,3 +54,6 @@ def getdata():
                 data["link"] = link
 
                 print(data)
+
+
+install()
